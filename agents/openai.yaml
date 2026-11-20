@@ -1,0 +1,6 @@
+interface:
+  display_name: "初筛报告"
+  short_description: "根据 BP、访谈及补充研究生成含七项星级评价和下一步建议的中文初筛报告"
+  default_prompt: "请使用 $bp-evaluator，根据我提供的材料生成初筛报告，给出明确评价和下一步建议。"
+policy:
+  allow_implicit_invocation: true
